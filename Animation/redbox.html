@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+/* Step 1: Define the animation */
+@keyframes moveBox {
+  0%   { left: 0px; background-color: red; }
+  50%  { left: 150px; background-color: blue; }
+  100% { left: 0px; background-color: red; }
+}
+
+/* Step 2: Apply animation to an element */
+.box {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  background-color: red;
+  animation-name: moveBox;        /* animation name */
+  animation-duration: 4s;         /* how long it runs */
+  animation-iteration-count: infinite; /* loops forever */
+  animation-timing-function:ease-in-out; /* smooth motion */
+}
+
+ div {
+    font-family: Arial black, sans-serif;
+
+  }
+</style>
+</head>
+<body>
+
+<div class="box"  style="text-align: center;"   >AURA</div>
+
+</body>
+</html>
