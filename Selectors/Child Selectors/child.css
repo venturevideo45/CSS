@@ -1,0 +1,9 @@
+h1+p{
+color: blue
+}
+ul>li{
+color: blueviolet
+}
+a:hover {
+color: red;
+}
